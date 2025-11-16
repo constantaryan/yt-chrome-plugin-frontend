@@ -2,9 +2,9 @@
     "manifest_version":3,
     "name":"Youtube Sentiment Analysis",
     "version":"1.0",
-    "description":" Send random text",
+    "description":"Check if the current URL is a Youtube video URL and print the video ID and the comment count",
     "action":{
         "default_popup":"popup.html"
     },
-    "permissions":["scripting"]
+    "permissions":["tabs"]
 }
